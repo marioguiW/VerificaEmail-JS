@@ -22,7 +22,9 @@ botao.addEventListener("click", (evento) => {
             'background-color: white;' +
             'border-color: gray';
         errorMensagem.innerHTML = "";
-        window.location.replace("http://127.0.0.1:5500/newsletter-sign-up-with-success-message-main/correto.html");
+        localStorage.setItem("email" , email.value);
+
+        window.location.replace("http://127.0.0.1:5500/correto.html");
         const emailSucess = document.getElementById("emailSucess");
         console.log(emailSucess);
 
