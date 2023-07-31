@@ -1,0 +1,86 @@
+@font-face {
+    font-family: RobotoBold;
+    src: url(/newsletter-sign-up-with-success-message-main/assets/fonts/Roboto-Bold.ttf);
+}
+
+@font-face{
+    font-family: RobotoRegular;
+    src: url(/newsletter-sign-up-with-success-message-main/assets/fonts/Roboto-Regular.ttf);
+}
+
+img{
+    width: 50px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(82, 74, 108);
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    align-items: center;
+
+}
+
+.conteudo{
+    display: flex;
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h1{
+    font-family: RobotoBold;
+    color: hsl(234, 29%, 20%);
+    padding: 0%;
+    margin: 0%;
+    font-size: 40px;
+}
+
+h3{
+    font-family: RobotoRegular;
+    font-size: 12px;
+    color: hsl(234, 29%, 20%);
+
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    background-color: hsl(233, 31%, 29%);
+    align-items: center;
+    justify-content: center;
+    font-family: RobotoBold;
+    font-size: 13px;
+    border: none;
+}
+
+button:hover{
+    display: flex;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(to right,#e65b84, #c15100);
+    align-items: center;
+    justify-content: center;
+    font-family: RobotoBold;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+}
